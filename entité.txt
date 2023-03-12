@@ -1,0 +1,8 @@
+// c vrais que chatgpt mais j'ai compris le proncipe hamza 
+La relation entre Gymnase et Membre est une relation de 1 à N (un gymnase peut avoir plusieurs membres inscrits, mais un membre ne peut être inscrit que dans un seul gymnase).
+
+La relation entre Gymnase et Session est également une relation de 1 à N (un gymnase peut proposer plusieurs sessions de sport, mais une session de sport ne peut être proposée que dans un seul gymnase).
+
+La relation entre Session et Membre est une relation de N à M (une session de sport peut accueillir plusieurs membres inscrits, et un membre peut s'inscrire à plusieurs sessions de sport).
+
+La relation entre Gymnase et Coach est une relation de N à M (un gymnase peut avoir plusieurs coaches travaillant pour lui, et un coach peut travailler dans plusieurs gymnases).
